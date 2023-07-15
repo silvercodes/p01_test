@@ -1,7 +1,8 @@
 #include <string>
 
-class Enncoder
+class Encoder
 {
 private:
 	std::string path;
+	bool isActive;
 }
