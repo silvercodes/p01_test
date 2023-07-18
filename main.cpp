@@ -10,6 +10,7 @@ int main()
 	std::cout << a + b;
 
 	std::string email = "dima@mail.com";
+	int age = 32;
 
 	return 0;
 }
