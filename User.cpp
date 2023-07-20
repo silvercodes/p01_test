@@ -9,6 +9,11 @@ private:
 	int age;
 
 public:
+	User()
+	{
+		
+	}
+
 	User(std::string name, int age):
 		name{name},
 		age{age}
@@ -18,4 +23,6 @@ public:
 	{
 		std::cout << this->name << '\n';
 	}
+
+
 }
