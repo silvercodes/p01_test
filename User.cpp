@@ -13,4 +13,9 @@ public:
 		name{name},
 		age{age}
 	{}
+
+	void show()
+	{
+		std::cout << this->name << '\n';
+	}
 }
